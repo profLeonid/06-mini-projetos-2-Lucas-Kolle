@@ -138,6 +138,11 @@ tbody td {
   font-size: 1rem;
 }
 
+tbody td.negativo{
+  color: red;
+  border: 2px solid red;
+}
+
 tbody td:not(:first-child) {
   text-align: right;
 }
